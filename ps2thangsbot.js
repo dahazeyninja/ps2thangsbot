@@ -87,7 +87,7 @@ var connectpc = function() {
             var newMinutes = (minutes < 10) ? '0' + minutes:minutes;
             var seconds = date.getSeconds();
             var newSeconds = (seconds < 10) ? '0' + seconds:seconds;
-            var formattedTime = year + '-' + month + '-' + day + ' ' + hours + ':' + newMinutes + ':' + seconds;
+            var formattedTime = year + '-' + month + '-' + day + ' ' + hours + ':' + newMinutes + ':' + newSeconds;
             if (world_id == '1') {
                 var world_name = 'Connery'
                 if (event_name == 'ContinentUnlock') {
@@ -231,7 +231,7 @@ var connectps4us = function() {
             var newMinutes = (minutes < 10) ? '0' + minutes:minutes;
             var seconds = date.getSeconds();
             var newSeconds = (seconds < 10) ? '0' + seconds:seconds;
-            var formattedTime = year + '-' + month + '-' + day + ' ' + hours + ':' + newMinutes + ':' + seconds;
+            var formattedTime = year + '-' + month + '-' + day + ' ' + hours + ':' + newMinutes + ':' + newSeconds;
             if (world_id == '1000') {
                 var world_name = 'Genudine'
                 if (event_name == 'ContinentUnlock') {
@@ -308,7 +308,7 @@ var connectps4eu = function() {
             var newMinutes = (minutes < 10) ? '0' + minutes:minutes;
             var seconds = date.getSeconds();
             var newSeconds = (seconds < 10) ? '0' + seconds:seconds;
-            var formattedTime = year + '-' + month + '-' + day + ' ' + hours + ':' + newMinutes + ':' + seconds;
+            var formattedTime = year + '-' + month + '-' + day + ' ' + hours + ':' + newMinutes + ':' + newSeconds;
             if (world_id == '2000') {
                 var world_name = 'Ceres'
                 if (event_name == 'ContinentUnlock') {
