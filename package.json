@@ -1,0 +1,16 @@
+{
+  "name": "ps2thangsbot",
+  "version": "1.0.0",
+  "description": "tweets ps2 thangs",
+  "main": "ps2thangsbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.3",
+    "ws": "^1.0.1"
+  },
+  "devDependencies": {}
+}
